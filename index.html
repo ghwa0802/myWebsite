@@ -31,13 +31,15 @@
     <link href="./assets/style/animate.css" rel="stylesheet" />
     <link href="./assets/style/myStyle.css" rel="stylesheet" />
   </head>
+
   <!-- ################################################################################################# -->
+
   <body data-spy="scroll" data-target=".fixed-top">
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-body">
+    <!-- navbar ======= start -->
+    <nav class="navbar navbar-expand-lg bg-body fixed-top">
       <div class="container-fluid">
         <!-- navbar-brand -- Image Logo -->
-        <a class="navbar-brand navStyle" href="index.html"
+        <a class="navbar-brand navStyle" href="index.html#home"
           ><img
             src="./assets/image/logo.png"
             style="width: 36px"
@@ -59,7 +61,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#header"
+              <a class="nav-link page-scroll" href="#home"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
@@ -67,7 +69,7 @@
               <a class="nav-link page-scroll" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#services">Services</a>
+              <a class="nav-link page-scroll" href="#skills">Skills</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -77,7 +79,7 @@
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
-                >Drop</a
+                >Portfolio</a
               >
               <div class="dropdown-menu" aria-labelledby="dropdown01">
                 <a class="dropdown-item page-scroll" href="project.html"
@@ -98,43 +100,379 @@
             </li>
           </ul>
         </div>
-        <!-- end of navbar-collapse -->
+        <!-- navbar-collapse end -->
       </div>
-      <!-- end of container -->
     </nav>
-    <!-- end of navbar -->
-    <!-- end of navigation -->
+    <!-- navbar ======= end -->
+
     <!-- ################################################################################################# -->
-    <header id="header" class="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4"></div>
-          <div class="col-lg-8">
-            <div class="text-container">
-              <p class="h1">Hi, I'm Y.</p>
-              <p class="h3">
-                <span>I'm a</span>
-                <a
-                  class="typewrite"
-                  data-period="2000"
-                  data-type='[ "CG animator.", "motion graphic designer.", "researcher.", "conservator.", " developer." ]'
-                >
-                  <span class="wrap"></span>
-                </a>
-              </p>
-              <a class="btn btn-light rounded-pill page-scroll" href="#about"
-                >Learn More</a
-              >
+
+    <!-- ======= #home ======= start ======= -->
+    <header id="home" class="header">
+      <div style="height: 100vh" class="center">
+        <div
+          class="container ps-5 pe-3"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <!-- col system -->
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <!-- left col start -->
+            <div
+              class="left-col col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7"
+            >
+              <div class="text-container">
+                <div class="display-1">
+                  Hi, I'm
+                  <img
+                    src="/assets/image/logo_circle2.png"
+                    width="180px"
+                    alt="logo"
+                    style="position: relative; top: -20px"
+                    class="play-on-hover ps-2 pe-2"
+                  />
+                </div>
+              </div>
             </div>
-            <!-- end of text-container -->
+            <!-- left col end -->
+            <!-- right col start -->
+            <div
+              class="right-col col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5"
+            >
+              <div class="text-container">
+                <p class="display-6">
+                  <span></span>
+                  <a
+                    class="typewrite"
+                    data-period="2000"
+                    data-type='[ "a CG animator.", "a mograph designer.", "a digital artist.", "a museum researcher.", "a developer." ]'
+                  >
+                    <span class="wrap"></span>
+                  </a>
+                </p>
+              </div>
+            </div>
+            <!-- right col end -->
           </div>
-          <!-- end of col -->
+          <!-- col end -->
+        </div>
+      </div>
+    </header>
+    <!-- ======= #home ======= end ======= -->
+
+    <!-- ################################################################################################# -->
+
+    <!-- ======= #about ======= start ======= -->
+    <section id="about" class="about">
+      <div
+        class="container navbarEscap ps-5 pe-5"
+        style="padding-top: 100px; padding-bottom: 50px"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        <!-- col system -->
+        <div class="row align-items-xl-center gy-5">
+          <div class="col-xl-5 content">
+            <!-- col left -->
+            <div class="display-5 pt-5 pb-5">About Me</div>
+            <div class="h1">Whatever People Say I Am, That's What I'm Not.</div>
+            <p>
+              As a versatile digital artist with 8+ years of experience in
+              digital media, I have worked on a range of audio-visual
+              entertainment projects. With the emergence of Web3 and NFTs, I am
+              excited to transform into a digital nomad and explore new
+              opportunities in this exciting industry.
+            </p>
+          </div>
+          <!-- col right -->
+          <div class="col-xl-7">
+            <div class="row gy-4 icon-boxes">
+              <!-- col right -- box1 -->
+              <div
+                class="col-md-6 center"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="icon-box">
+                  <img src="./assets/image/propic01.png" />
+                  <p class="h4">digital artist</p>
+                  <p class=""># 5 years experience</p>
+                </div>
+              </div>
+              <!-- box1 end -->
+
+              <!-- col right -- box2 -->
+              <div
+                class="col-md-6 center"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div class="icon-box">
+                  <img src="./assets/image/propic04.gif" />
+                  <p class="h4">mograph animator</p>
+                  <p class=""># 8 years experience</p>
+                </div>
+              </div>
+              <!-- box2 end -->
+
+              <!-- col right -- box3 -->
+
+              <div
+                class="col-md-6 center"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <div class="icon-box">
+                  <img src="./assets/image/propic02.png" />
+                  <p class="h4">film researcher</p>
+                  <p class=""># 3 years experience</p>
+                </div>
+              </div>
+              <!-- box3 end -->
+
+              <!-- col right -- box4 -->
+              <div
+                class="col-md-6 center"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                <div class="icon-box">
+                  <img src="./assets/image/propic03.jpg" />
+                  <p class="h4">front-end developer</p>
+                  <p class=""># new experience</p>
+                </div>
+              </div>
+              <!-- box4 end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======= #about ======= end ======= -->
+
+    <!-- ################################################################################################# -->
+
+    <!-- ======= # skills ======= start ======= -->
+    <div id="skills" class="skills">
+      <div
+        class="container navbarEscap ps-5 pe-5"
+        style="padding-top: 50px; padding-bottom: 50px"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        <!-- col system -->
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="display-5 pt-5 pb-5">Skills and software</div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- box 1 -->
+          <div class="col-lg-3">
+            <div class="floatingBox">
+              <i class="fa-solid fa-pen-nib wow animate__bounceIn"></i>
+              <p class="h6">Graphic Design</p>
+              <p class="smaller">Ps, Ai, Blender</p>
+            </div>
+          </div>
+          <!-- box 1 end -->
+          <!-- box 2 -->
+          <div class="col-lg-3">
+            <div class="floatingBox">
+              <i class="fa-solid fa-image wow animate__bounceIn"></i>
+              <p class="h6">Image Processing</p>
+              <p class="smaller">Ps, GIMP, Lr, Luminar</p>
+            </div>
+          </div>
+          <!-- box 2 end -->
+          <!-- box 3 -->
+          <div class="col-lg-3">
+            <div class="floatingBox">
+              <i class="fa-solid fa-video wow animate__bounceIn"></i>
+              <p class="h6">Video Editing</p>
+              <p class="smaller">Pr, DaVinci, AE</p>
+            </div>
+          </div>
+          <!-- box 3 end -->
+          <!-- box 4 -->
+          <div class="col-lg-3">
+            <div class="floatingBox">
+              <i class="fa-solid fa-photo-film wow animate__bounceIn"></i>
+              <p class="h6">CGI for Film</p>
+              <p class="smaller">Maya, Quixel, AE, Nuke, Matchmove</p>
+            </div>
+          </div>
+          <!-- box 4 end -->
+          <!-- box 4 -->
+          <div class="col-lg-3">
+            <div class="floatingBox">
+              <i class="fa-solid fa-gamepad wow animate__bounceIn"></i>
+              <p class="h6">Motion Graphics</p>
+              <p class="smaller">Maya(Arnold), Blender, AE</p>
+            </div>
+          </div>
+          <!-- box 4 end -->
+          <!-- box 4 -->
+          <div class="col-lg-3">
+            <div class="floatingBox">
+              <i class="fa-solid fa-vr-cardboard wow animate__bounceIn"></i>
+              <p class="h6">AR & VR</p>
+              <p class="smaller">3D scanning</p>
+            </div>
+          </div>
+          <!-- box 4 end -->
+          <!-- box 5 -->
+          <div class="col-lg-3">
+            <div class="floatingBox">
+              <i class="fa-solid fa-film wow animate__bounceIn"></i>
+              <p class="h6">Film Restoration</p>
+              <p class="smaller">Arri 4k Scanner, Phoneix</p>
+            </div>
+          </div>
+          <!-- box 5 end -->
+          <!-- box 6 -->
+          <div class="col-lg-3">
+            <div class="floatingBox">
+              <i class="fa-solid fa-code wow animate__bounceIn"></i>
+              <p class="h6">Front-end Development</p>
+              <p class="smaller">HTML5, CSS, JS, Bootstrap, React</p>
+            </div>
+          </div>
+          <!-- box 6 end -->
         </div>
         <!-- end of row -->
       </div>
       <!-- end of container -->
-    </header>
-    <!-- end of header -->
+    </div>
+    <!-- end of skills -->
+    <!-- ======= # services ======= end ======= -->
+
+    <!-- ======= # portfolio ======= start ======= -->
+
+    <!-- ======= # portfolio ======= end ======= -->
+
+    <!-- ======= #contact ======= start ======= -->
+    <section id="contact" class="contact">
+      <div
+        class="container ps-5 pe-5 pb-5 navbarEscape"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        <div class="contact-container">
+          <div class="display-5 pt-5 pb-5">Let's keep in touch!</div>
+        </div>
+        <!-- col system -->
+        <div class="row">
+          <!-- left col start -->
+          <div class="col-lg-5">
+            <!-- <div class="col-lg-5 d-flex align-items-stretch"> -->
+            <div class="info floatingBox">
+              <div class="email">
+                <i class="fa-regular fa-envelope wow animate__bounceIn"></i>
+                <div class="h4">Email</div>
+                <p>
+                  <a href="mailto: xy.generator505@gmail.com"
+                    >xy.generator505@gmail.com</a
+                  >
+                </p>
+              </div>
+              <div class="phone">
+                <i class="fa-solid fa-phone wow animate__bounceIn"></i>
+                <div class="h4">Call</div>
+                <p>(+852) 6823 9644</p>
+              </div>
+              <div class="address">
+                <i
+                  class="fa-solid fa-map-location-dot wow animate__bounceIn"
+                ></i>
+                <div class="h4">Location</div>
+                <p>
+                  Christian Action Training Services<br />
+                  Choi Wan Training Centre
+                </p>
+              </div>
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14761.984227063787!2d114.2163235!3d22.3348909!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340407c92f43b7e1%3A0x9c46c82fd1a46356!2z5Z-6552j5pWZ5Yu16KGM5pyDIOWfueiok-acjeWLmSAtIOW9qembsuWfueiok-S4reW_gw!5e0!3m2!1szh-TW!2shk!4v1688687202275!5m2!1szh-TW!2shk"
+                width="100%"
+                height="163.5px"
+                style="border: 0; border-radius: 5px"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <!-- left col end -->
+          <!-- right col start -->
+          <div class="col-lg-7 mt-5 mt-lg-0">
+            <!-- form -->
+            <form class="floatingBox">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    id="name"
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="name">Subject</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="name">Message</label>
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="9"
+                  ></textarea>
+                </div>
+                <!-- pop up when submit start -->
+                <div class="text-center">
+                  <div id="popup-message">
+                    <p>Thanks for your message!</p>
+                    <div
+                      class="btn btn-brown-inv rounded-pill"
+                      onclick="closePopup()"
+                    >
+                      Close
+                    </div>
+                  </div>
+                  <div
+                    class="btn btn-brown-inv rounded-pill"
+                    onclick="showPopup()"
+                  >
+                    DM me!
+                  </div>
+                </div>
+                <!-- pop up end -->
+              </div>
+            </form>
+            <!-- form end -->
+          </div>
+          <!-- right col end -->
+        </div>
+      </div>
+    </section>
+    <!-- ======= contact ======= end ======= -->
+
     <!-- ################################################################################################# -->
     <!-- scripts -->
     <!-- scripts: bootstrap - seperate -->
@@ -148,6 +486,11 @@
       integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
       crossorigin="anonymous"
     ></script>
+    <!-- scripts: aos -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- scripts: wow.js -->
     <script src="./assets/js/wow.min.js"></script>
     <script>
@@ -160,5 +503,9 @@
       src="https://kit.fontawesome.com/b650d0e28e.js"
       crossorigin="anonymous"
     ></script>
+    <!-- scripts: jQuery Easing -->
+    <script src="./assets/js/jquery.easing.min.js"></script>
+    <!-- scripts: Custom scripts -->
+    <script src="./assets/js/scripts.js"></script>
   </body>
 </html>
