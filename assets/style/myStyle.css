@@ -98,21 +98,47 @@ a:hover {
 
 /* ======= navbar ======= */
 
-.navbar .navbar-brand {
-    padding: .125rem 2rem .125rem 1rem;
-    font-size: small
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: white;
+    background: #b08873;
+    font-weight: 800;
 }
 
-.navStyle:hover, .nav-link:hover {
+.nav-pills .nav-link {border-radius: 30px;
+}
+
+
+.navbar .navbar-brand, .nav, .dropdown-item {
+    padding: .125rem 2rem .125rem 1rem;
+    font-size: smaller
+}
+
+.navbar:visited, .navbar-brand:visited, .navStyle, .navStyle:visited, .nav-link, .nav-link:visited, .dropdown-item, .dropdown-item:visited {
+    font-weight: 400;
+    font-kerning: normal;
+    color: #b08873;
+    transition: all 0.3s ease-in-out;
+}
+
+.navStyle:hover, .nav-link:hover, .nav-link:active, .dropdown-item:hover, .dropdown-item:active {
     color:#f9d1cd;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
   }
 
-.navStyle, .nav-link{
-    font-weight: 400;
-    font-kerning: normal;
-    color: #b08873;
+.dropdown-item:hover {
+    color:#f9d1cd;
+    background: white;
+    transition: all 0.3s ease-in-out;
+  }
+
+.dropdown-menu {
+border: 0.5px solid #f9d1cd;
+}
+
+.dropdown-divider {
+    border: 0px;
 }
 
 .navbar-toggler {
@@ -204,6 +230,11 @@ a:hover {
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.about .icon-box {
+    transition: all 0.3s ease-out 0s;
 }
   
   .about .icon-boxes .col-md-6:nth-child(2) .icon-box,
@@ -219,12 +250,17 @@ a:hover {
     }
   }
 
+.about img:hover {
+        transform: scale(1.1);
+      }
+
 /* ======= skills ======= */
 
 .skills {
     background-image: url(../image/bgSkill.gif);
-    background-position: center;
+    background-position: bottom;
     background-repeat:repeat;
+    background-attachment: fixed;
 }
 
 .skills .display-5 {
@@ -252,6 +288,11 @@ a:hover {
 
 .carousel-caption {
     background: rgba(0,0,0,0.2);
+    margin: 0px;
+}
+
+.portfolio p {
+    padding: 0px;
     margin: 0px;
 }
 
