@@ -223,8 +223,8 @@ a:hover {
 
 .skills {
     background-image: url(../image/bgSkill.gif);
-width: auto;
-height: 100vh;
+    background-position: center;
+    background-repeat:repeat;
 }
 
 .skills .display-5 {
@@ -235,7 +235,7 @@ height: 100vh;
 .skills i {
 	margin-bottom: 1.5rem;
 	color: #f9d1cd;
-	font-size: 3.5rem;
+	font-size: 50px;
 }
 
 .skills .smaller {
@@ -248,6 +248,11 @@ height: 100vh;
     background: rgba(255,255,255,0.7);
 }
 
+/* ======= portfolio ======= */
+
+.portfolio .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+}
 
 /* ======= contact ======= */
   
