@@ -250,8 +250,9 @@ a:hover {
 
 /* ======= portfolio ======= */
 
-.portfolio .carousel-caption {
-    background: rgba(0, 0, 0, 0.5);
+.carousel-caption {
+    background: rgba(0,0,0,0.2);
+    margin: 0px;
 }
 
 /* ======= contact ======= */
