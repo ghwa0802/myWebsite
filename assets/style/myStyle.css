@@ -230,10 +230,10 @@ border: 0.5px solid #f9d1cd;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
-    transition: transform 0.3s;
+    transition: all 0.3s ease-out 0s;
 }
 
-.about .icon-box {
+.about .icon-box, .about .imgText {
     transition: all 0.3s ease-out 0s;
 }
   
@@ -252,6 +252,26 @@ border: 0.5px solid #f9d1cd;
 
 .about img:hover {
         transform: scale(1.1);
+      }
+
+      .about .icon-box {
+        position: relative;
+        display: inline-block;
+      }
+      .about .imgText {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(249,209,205,0.8);
+        color: white;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        opacity: 0;
+      }
+      .icon-box:hover .imgText  {
+        opacity: 1;
       }
 
 /* ======= skills ======= */
